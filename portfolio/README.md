@@ -23,11 +23,6 @@ npm start
 ``` 
 
 ## Deployment
-Production builds take place at https://github.com/JPham8010/jpham8010.github.io
-
 Until a pipeline is setup, the following steps are for mannual deployment:
-```
-npm run build
-
-*push the build folder to jpham8010.github.io repository
-```
+1. `npm run build`
+2.  Take the contents of /build directory and publish/replace current files in root

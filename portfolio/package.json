@@ -1,5 +1,6 @@
 {
-  "name": "portfolio-buttercms",
+  "name": "portfolio",
+  "homepage": "https://jpham8010.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
