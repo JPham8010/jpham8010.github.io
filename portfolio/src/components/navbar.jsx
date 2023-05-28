@@ -18,7 +18,9 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <h1 className=' font-thin text-2xl italic font-serif'>Jennifer Pham</h1>
+        <h1 className='font-thin text-2xl italic font-serif' name = 'logo'>
+          <a href="#" onClick={() => window.location.reload()}>&#40; &#123; J. Pham &#125; &#41;</a>
+        </h1>
       </div>
       {/* menu */}
       <ul className='hidden md:flex gap-x-8'>
